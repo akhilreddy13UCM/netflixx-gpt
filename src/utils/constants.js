@@ -9,3 +9,11 @@ export const API_OPTIONS={
     },
 };
 export const IMG_CDN_URL="https://image.tmdb.org/t/p/w500/";
+
+export const BG_URL="https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/96956889-cd58-48f4-930e-f43fad686c0d/US-en-20231016-popsignuptwoweeks-perspective_alpha_website_large.jpg";
+
+export const SUPPORTED_LANGUAGES=[
+    {identifier:"en",name:"English"},
+    {identifier:"hi",name:"Hindi"},
+    {identifier:"sp",name:"Spanish"},
+];

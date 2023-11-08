@@ -4,6 +4,7 @@ import Header from './Header';
 import {  createUserWithEmailAndPassword,signInWithEmailAndPassword } from "firebase/auth";
 //import { auth } from "../utils/firebase";
 import { auth } from '../utils/firebase'; 
+import { BG_URL } from '../utils/constants';
 
 const Login = () => {
   const [isSignInForm,setIsSignInForm]=useState(true);
@@ -58,7 +59,7 @@ const Login = () => {
     <div>
       <Header/>
       <div className='absolute'> 
-        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/a73c4363-1dcd-4719-b3b1-3725418fd91d/96956889-cd58-48f4-930e-f43fad686c0d/US-en-20231016-popsignuptwoweeks-perspective_alpha_website_large.jpg"
+        <img src={BG_URL}
     alt="logo"/>
       </div>
     <form onSubmit={(e)=>e.preventDefault()} className='w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80'>
