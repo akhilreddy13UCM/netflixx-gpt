@@ -5,7 +5,7 @@ export const API_OPTIONS={
     headers:{
         accept:"application/json",
         Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMGFkZWZhMjZkNDY5MmQ3MzcxM2E0YmRlMzA1MjM4NCIsInN1YiI6IjY1M2IyMmVkYmMyY2IzMDEwYjQ5ZDE5ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.xqV4sQ4yRNl6cwu_DmT3aD6DfHVrdiTLSmRTL0AXrns"
+        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMGFkZWZhMjZkNDY5MmQ3MzcxM2E0YmRlMzA1MjM4NCIsInN1YiI6IjY1M2IyMmVkYmMyY2IzMDEwYjQ5ZDE5ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.xqV4sQ4yRNl6cwu_DmT3aD6DfHVrdiTLSmRTL0AXrns",//+process.enb.REACT_APP_TMDB_KEY;
     },
 };
 export const IMG_CDN_URL="https://image.tmdb.org/t/p/w500/";
@@ -17,3 +17,4 @@ export const SUPPORTED_LANGUAGES=[
     {identifier:"hi",name:"Hindi"},
     {identifier:"sp",name:"Spanish"},
 ];
+export const OPENAI_KEY="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";
