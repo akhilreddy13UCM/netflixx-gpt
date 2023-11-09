@@ -59,11 +59,14 @@ use popular movie custom hook
             MovieLists * N      
 -netflixgpt     
     search bar      
-    movie suggestions       
- 
+    movie suggestions 
+
+
 
 firebase commands       
 npm install -g firebase-tools       
 firebase login      
 firebase int        
 firebase deploy     
+Constants.js file is available with me
+ 
